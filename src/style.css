@@ -1,0 +1,29 @@
+body {
+    margin:100px;
+}
+
+h2 {
+    margin: 0px 0px 30px 300px;
+}
+
+.form-input-group {
+    display: flex;
+    margin-left:300px;
+}
+
+.form-input-item {
+    display:flex;
+    margin:0px 50px 0px 0px;
+}
+
+.form-dropdown {
+    width:205px;
+    height:35px;
+}
+
+#submit-button {
+    margin:20px 0px 0px 20px;
+    width: 150px;
+    height:50px;
+    background-color: black;
+}
