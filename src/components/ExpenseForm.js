@@ -8,8 +8,8 @@ function ExpenseForm(props) {
 
         <Form onSubmit={props.handleSubmit} id="expense-form">
             <h2>Expense Tracker</h2>
-            <div class="form-input-group">
-                <div class="form-input-item">
+            <div className="form-input-group">
+                <div className="form-input-item">
                     <Form.Group controlId="formBasicAmount">
                         <Form.Label>Amount</Form.Label>
                         <Form.Control
@@ -17,31 +17,30 @@ function ExpenseForm(props) {
                             value={props.items.amount}
                             name="amount"
                             onChange={props.handleChange}
+                            step="0.25"
                             required
                         />
                     </Form.Group>
                 </div>
 
-                <div class="form-input-item">
+                <div className="form-input-item">
                     <Form.Group controlId="formBasicPaymentType">
-                        <Form.Label>Payment Type</Form.Label>
-                        <form onSubmit={props.handleSubmit}>
+                        <Form.Label>Payment Type</Form.Label><br/>
                             <select defaultValue="Credit Card"
                                 value={props.items.paymentType} name="paymentType"
-                                onChange={props.handleChange} class="form-dropdown"
+                                onChange={props.handleChange} className="form-dropdown"
                                 required>
                                 <option value="Credit Card">Credit Card</option>
                                 <option value="Paypal">Paypal</option>
                                 <option value="Google Pay">Google Pay</option>
                             </select>
-                        </form>
 
                     </Form.Group>
                 </div>
-                <div class="form-input-item">
+                <div className="form-input-item">
                     <Form.Group controlId="formBasicDate">
                         <Form.Label>Date</Form.Label>
-                        <Form.Control class="formInputField"
+                        <Form.Control className="formInputField"
                             type="date"
                             value={props.items.date}
                             name="date"
@@ -52,8 +51,8 @@ function ExpenseForm(props) {
                 </div>
             </div>
 
-            <div class="form-input-group" id="inputLine2">
-                <div class="form-input-item">
+            <div className="form-input-group" id="inputLine2">
+                <div className="form-input-item">
                     <Form.Group controlId="formBasicDescription">
                         <Form.Label>Description</Form.Label>
                         <Form.Control
@@ -65,10 +64,10 @@ function ExpenseForm(props) {
                         />
                     </Form.Group>
                 </div>
-                <div class="form-input-item">
+                <div className="form-input-item">
                     <Form.Group controlId="formBasicextLocation">
                         <Form.Label>Location</Form.Label>
-                        <Form.Control class="formInputField" type="text" value={props.items.location}
+                        <Form.Control className="formInputField" type="text" value={props.items.location}
                             name="location"
                             onChange={props.handleChange}
                             required
@@ -76,8 +75,8 @@ function ExpenseForm(props) {
                     </Form.Group>
                 </div>
 
-                <div class="form-input-item">
-                    <Button variant="primary" type="submit" onClick={props.handleSubmit} id="submit-button">
+                <div className="form-input-item">
+                    <Button variant="primary" type="submit" id="submit-button">
                         Submit
                         </Button>
                 </div>
