@@ -17,7 +17,6 @@ function ExpenseForm(props) {
                             value={props.items.amount}
                             name="amount"
                             onChange={props.handleChange}
-                            step="0.25"
                             required
                         />
                     </Form.Group>
