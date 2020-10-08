@@ -1,3 +1,19 @@
+# react-expense-tracker
+
+An updated version of the expense tracker utilizing React and local storage.
+
+<img src="https://github.com/ultimatezachgrafton/rest-react-api/blob/main/react-expense-tracker-img.png">
+
+<a href="https://aqueous-plateau-68516.herokuapp.com/">Try it here!</a>
+
+Simply input your expense details and add it to your list for posterity!
+
+<b>Summary</b><br>
+Working with React for the first time was a huge learning curve, but the result was incredibly satisfying. I prefer compartmentalized code, so working with components came naturally.
+
+<b>Author:</b> Zach Grafton - Full Stack Developer - Android Developer - Website | LinkedIn
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
