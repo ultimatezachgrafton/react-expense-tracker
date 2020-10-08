@@ -2,7 +2,7 @@
 
 An updated version of the expense tracker utilizing React and local storage.
 
-<img src="https://github.com/ultimatezachgrafton/rest-react-api/blob/main/react-expense-tracker-img.png">
+<img src="https://github.com/ultimatezachgrafton/react-expense-tracker/blob/master/react-expense-tracker-img.png">
 
 <a href="https://aqueous-plateau-68516.herokuapp.com/">Try it here!</a>
 
